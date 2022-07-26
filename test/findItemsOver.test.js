@@ -58,16 +58,17 @@ var itemList = [
     {name : 'apples', qty : 37}
   ];
 
-  describe('Test for my findItemsOver function' , function(){
-    it("it should return the list of items over '20' ") , function(){
-     
-         assert.deepEqual(results3,findItemsOver(itemList3,20));
-         
-     }
- 
-     it("it should return the list of items over '19' ", function(){
-         assert.deepEqual(results2, findItemsOver(itemList2,19));
-         
-     });
- });
- 
+  describe('Test for my findItemsOver function', function () {
+    it("it should return the list of items over '20' ", function () {
+  
+      assert.deepEqual(results3, findItemsOver(itemList3, 20));
+  
+    });
+  
+    it("it should return the list of items over '19' ", function () {
+      assert.deepEqual(results2, findItemsOver(itemList2, 19));
+  
+    });
+  
+  
+  }); 
